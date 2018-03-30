@@ -1,0 +1,711 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>DEV-PP Weekly</title>
+  </head>
+
+  <body style="-moz-box-sizing:border-box;-ms-text-size-adjust:100%;-webkit-box-sizing:border-box;-webkit-text-size-adjust:100%;Margin:0;box-sizing:border-box;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;min-width:100%;padding:0;text-align:left;width:100%!important">
+    <style>
+      @media only screen {
+        html {
+          min-height: 100%;
+          background: #f3f3f3
+        }
+      }
+
+      @media only screen and (max-width:596px) {
+        .small-float-center {
+          margin: 0 auto!important;
+          float: none!important;
+          text-align: center!important
+        }
+        .small-text-center {
+          text-align: center!important
+        }
+        .small-text-left {
+          text-align: left!important
+        }
+        .small-text-right {
+          text-align: right!important
+        }
+      }
+
+      @media only screen and (max-width:596px) {
+        .hide-for-large {
+          display: block!important;
+          width: auto!important;
+          overflow: visible!important;
+          max-height: none!important;
+          font-size: inherit!important;
+          line-height: inherit!important
+        }
+      }
+
+      @media only screen and (max-width:596px) {
+        table.body table.container .hide-for-large,
+        table.body table.container .row.hide-for-large {
+          display: table!important;
+          width: 100%!important
+        }
+      }
+
+      @media only screen and (max-width:596px) {
+        table.body table.container .callout-inner.hide-for-large {
+          display: table-cell!important;
+          width: 100%!important
+        }
+      }
+
+      @media only screen and (max-width:596px) {
+        table.body table.container .show-for-large {
+          display: none!important;
+          width: 0;
+          mso-hide: all;
+          overflow: hidden
+        }
+      }
+
+      @media only screen and (max-width:596px) {
+        table.body img {
+          width: auto;
+          height: auto
+        }
+        table.body center {
+          min-width: 0!important
+        }
+        table.body .container {
+          width: 95%!important
+        }
+        table.body .column,
+        table.body .columns {
+          height: auto!important;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          padding-left: 16px!important;
+          padding-right: 16px!important
+        }
+        table.body .column .column,
+        table.body .column .columns,
+        table.body .columns .column,
+        table.body .columns .columns {
+          padding-left: 0!important;
+          padding-right: 0!important
+        }
+        table.body .collapse .column,
+        table.body .collapse .columns {
+          padding-left: 0!important;
+          padding-right: 0!important
+        }
+        td.small-1,
+        th.small-1 {
+          display: inline-block!important;
+          width: 8.33333%!important
+        }
+        td.small-2,
+        th.small-2 {
+          display: inline-block!important;
+          width: 16.66667%!important
+        }
+        td.small-3,
+        th.small-3 {
+          display: inline-block!important;
+          width: 25%!important
+        }
+        td.small-4,
+        th.small-4 {
+          display: inline-block!important;
+          width: 33.33333%!important
+        }
+        td.small-5,
+        th.small-5 {
+          display: inline-block!important;
+          width: 41.66667%!important
+        }
+        td.small-6,
+        th.small-6 {
+          display: inline-block!important;
+          width: 50%!important
+        }
+        td.small-7,
+        th.small-7 {
+          display: inline-block!important;
+          width: 58.33333%!important
+        }
+        td.small-8,
+        th.small-8 {
+          display: inline-block!important;
+          width: 66.66667%!important
+        }
+        td.small-9,
+        th.small-9 {
+          display: inline-block!important;
+          width: 75%!important
+        }
+        td.small-10,
+        th.small-10 {
+          display: inline-block!important;
+          width: 83.33333%!important
+        }
+        td.small-11,
+        th.small-11 {
+          display: inline-block!important;
+          width: 91.66667%!important
+        }
+        td.small-12,
+        th.small-12 {
+          display: inline-block!important;
+          width: 100%!important
+        }
+        .column td.small-12,
+        .column th.small-12,
+        .columns td.small-12,
+        .columns th.small-12 {
+          display: block!important;
+          width: 100%!important
+        }
+        table.body td.small-offset-1,
+        table.body th.small-offset-1 {
+          margin-left: 8.33333%!important;
+          Margin-left: 8.33333%!important
+        }
+        table.body td.small-offset-2,
+        table.body th.small-offset-2 {
+          margin-left: 16.66667%!important;
+          Margin-left: 16.66667%!important
+        }
+        table.body td.small-offset-3,
+        table.body th.small-offset-3 {
+          margin-left: 25%!important;
+          Margin-left: 25%!important
+        }
+        table.body td.small-offset-4,
+        table.body th.small-offset-4 {
+          margin-left: 33.33333%!important;
+          Margin-left: 33.33333%!important
+        }
+        table.body td.small-offset-5,
+        table.body th.small-offset-5 {
+          margin-left: 41.66667%!important;
+          Margin-left: 41.66667%!important
+        }
+        table.body td.small-offset-6,
+        table.body th.small-offset-6 {
+          margin-left: 50%!important;
+          Margin-left: 50%!important
+        }
+        table.body td.small-offset-7,
+        table.body th.small-offset-7 {
+          margin-left: 58.33333%!important;
+          Margin-left: 58.33333%!important
+        }
+        table.body td.small-offset-8,
+        table.body th.small-offset-8 {
+          margin-left: 66.66667%!important;
+          Margin-left: 66.66667%!important
+        }
+        table.body td.small-offset-9,
+        table.body th.small-offset-9 {
+          margin-left: 75%!important;
+          Margin-left: 75%!important
+        }
+        table.body td.small-offset-10,
+        table.body th.small-offset-10 {
+          margin-left: 83.33333%!important;
+          Margin-left: 83.33333%!important
+        }
+        table.body td.small-offset-11,
+        table.body th.small-offset-11 {
+          margin-left: 91.66667%!important;
+          Margin-left: 91.66667%!important
+        }
+        table.body table.columns td.expander,
+        table.body table.columns th.expander {
+          display: none!important
+        }
+        table.body .right-text-pad,
+        table.body .text-pad-right {
+          padding-left: 10px!important
+        }
+        table.body .left-text-pad,
+        table.body .text-pad-left {
+          padding-right: 10px!important
+        }
+        table.menu {
+          width: 100%!important
+        }
+        table.menu td,
+        table.menu th {
+          width: auto!important;
+          display: inline-block!important
+        }
+        table.menu.small-vertical td,
+        table.menu.small-vertical th,
+        table.menu.vertical td,
+        table.menu.vertical th {
+          display: block!important
+        }
+        table.menu[align=center] {
+          width: auto!important
+        }
+        table.button.small-expand,
+        table.button.small-expanded {
+          width: 100%!important
+        }
+        table.button.small-expand table,
+        table.button.small-expanded table {
+          width: 100%
+        }
+        table.button.small-expand table a,
+        table.button.small-expanded table a {
+          text-align: center!important;
+          width: 100%!important;
+          padding-left: 0!important;
+          padding-right: 0!important
+        }
+        table.button.small-expand center,
+        table.button.small-expanded center {
+          min-width: 0
+        }
+      }
+    </style>
+    <table class="body" data-made-with-foundation="" style="Margin:0;background:#f3f3f3;border-collapse:collapse;border-spacing:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;height:100%;line-height:1.5;margin:0;padding:0;text-align:left;vertical-align:top;width:100%">
+      <tbody>
+        <tr style="padding:0;text-align:left;vertical-align:top">
+          <td class="float-center" align="center" valign="top" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;float:none;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;hyphens:auto;line-height:1.5;margin:0 auto;padding:0;text-align:center;vertical-align:top;word-wrap:break-word">
+            <center data-parsed="" style="min-width:580px;width:100%">
+              <table class="spacer float-center" style="Margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:100%">
+                <tbody>
+                  <tr style="padding:0;text-align:left;vertical-align:top">
+                    <td height="16px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:16px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word"></td>
+                  </tr>
+                </tbody>
+              </table>
+              <table align="center" class="container float-center" style="Margin:0 auto;background:#fefefe;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:580px">
+                <tbody>
+                  <tr style="padding:0;text-align:left;vertical-align:top">
+                    <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;hyphens:auto;line-height:1.5;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                      <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <td height="16px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:16px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                  <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0;text-align:left">
+                                      <h2 class="title" style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:30px;font-weight:400;line-height:1.3;margin:0;margin-bottom:0;padding:0;text-align:left;word-wrap:normal">DEV-PP Weekly #10</h2>
+                                      <h5 class="subtitle" style="Margin:0;Margin-bottom:10px;color:#999;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">Palestra 1, palestra 2 e palesta 3</h5>
+                                      <center data-parsed="" style="min-width:532px;width:100%">
+                                        <img src="http://res.cloudinary.com/dwtuxv53y/image/upload/v1522289928/dev-pp-cover_pdcxjf.jpg" align="center" class="float-center"
+                                          style="-ms-interpolation-mode:bicubic;Margin:0 auto;clear:both;display:block;float:none;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto">
+                                      </center>
+                                    </th>
+                                    <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                  <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0;text-align:left">
+                                      <h1 style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:34px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">Fala galera!</h1>
+                                      <p class="lead" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;line-height:1.6;margin:0;margin-bottom:10px;padding:0;text-align:left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi impedit sapiente delectus
+                                        molestias quia.</p>
+                                      <p class="" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi impedit sapiente delectus
+                                        molestias quia.</p>
+                                    </th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <hr class="mb-md" style="margin:0 20px;margin-bottom:30px">
+                      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-8 columns first" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:8px;text-align:left;width:370.67px">
+                              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                  <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0;text-align:left">
+                                      <h5 class="bold" style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:700;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">Sorteios</h5>
+                                      <p style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">Na edição #6 do nosso meetup rolou sorteio de 2 cortesias para o
+                                        <a href="https://braziljs.org/eventos/on-the-road-sorocaba/" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">BrazilJS on the Road Sorocaba</a> e 4 ingressos para o cinema da Moviecom.
+                                        <br>🏆
+                                        <a href="https://flic.kr/s/aHsmd9jVeh" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">Confira as fotos dos ganhadores!</a>🏆</p>
+                                    </th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                            <th class="small-12 large-4 columns last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:8px;padding-right:16px;text-align:left;width:177.33px">
+                              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                  <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0;text-align:left">
+                                      <p style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">
+                                        <a href="https://flic.kr/s/aHsmd9jVeh" title="" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                          <img class="small-float-center" width="170" src="https://farm1.staticflickr.com/874/41058508302_5beb1b2630_k.jpg" alt=""
+                                            style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto">
+                                        </a>
+                                      </p>
+                                    </th>
+                                    <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                  <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0;text-align:left">
+                                      <h5 class="bold" style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:700;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">Vouchers para Toda a Comunidade 💪</h5>
+                                      <p style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">Além dos sorteios, conseguimos códigos promocionais de 15% desconto para o BrazilJs
+                                        e Front In Campinas. Basta colocar o voucher
+                                        <b>DEVPP</b> na hora da compra dos ingressos.</p>
+                                    </th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <hr class="mb-md" style="margin:0 20px;margin-bottom:30px">
+                      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <h3 style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:28px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">🆕 News</h3>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                  <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0;text-align:left">
+                                      <h4 style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">
+                                        <a href="http://bit.ly/2uwg30Y" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">Caravanas no Slack do DEVPP</a>
+                                      </h4>
+                                      <p style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">Estamos organizando caravanas para o BrazilJs em Sorocaba, Front In Campinas e Front
+                                        In Sampa e para isso criamos os canais
+                                        <b>#caravan-brjs-sorocaba</b>
+                                        <b>#caravana-frontin-camp</b>
+                                        <b>#caravana-frontin-sp</b> lá no Slack do Dev PP. Entra lá e vamos unir forças para
+                                        ir nesses eventos imperdíveis!</p>
+                                    </th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <hr class="mb-md" style="margin:0 20px;margin-bottom:30px">
+                      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <h3 style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:28px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">📜 Artigos</h3>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                  <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0;text-align:left">
+                                      <h4 style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">
+                                        <a href="" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">Sub Section Title</a>
+                                      </h4>
+                                      <p style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eum eius numquam sint
+                                        dolore voluptatibus beatae ab ad, dignissimos fugiat? Nisi odio commodi debitis eveniet
+                                        tenetur provident aliquid tempora placeat.</p>
+                                    </th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table class="row patrocinado" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                  <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0;text-align:left">
+                                      <h4 style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:0;padding:0;text-align:left;word-wrap:normal">
+                                        <a href="" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">Sub Section Title</a>
+                                      </h4>
+                                      <small style="border:solid .5px;border-radius:3px;color:#cacaca;display:inline-block;font-size:12px;font-style:italic;margin-bottom:10px;padding:3px">patrocinado</small>
+                                      <p style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eum eius numquam sint
+                                        dolore voluptatibus beatae ab ad, dignissimos fugiat? Nisi odio commodi debitis eveniet
+                                        tenetur provident aliquid tempora placeat.</p>
+                                    </th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <hr class="mb-md" style="margin:0 20px;margin-bottom:30px">
+                      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <h3 style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:28px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">☕ Tutoriais</h3>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                  <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0;text-align:left">
+                                      <h4 style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">
+                                        <a href="" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">Sub Section Title</a>
+                                      </h4>
+                                      <p style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eum eius numquam sint
+                                        dolore voluptatibus beatae ab ad, dignissimos fugiat? Nisi odio commodi debitis eveniet
+                                        tenetur provident aliquid tempora placeat.</p>
+                                    </th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <hr class="mb-md" style="margin:0 20px;margin-bottom:30px">
+                      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <h3 style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:28px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">📆 Eventos</h3>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                  <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0;text-align:left">
+                                      <h4 style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">
+                                        <a href="" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">Sub Section Title</a>
+                                      </h4>
+                                      <p style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eum eius numquam sint
+                                        dolore voluptatibus beatae ab ad, dignissimos fugiat? Nisi odio commodi debitis eveniet
+                                        tenetur provident aliquid tempora placeat.</p>
+                                    </th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <hr class="mb-md" style="margin:0 20px;margin-bottom:30px">
+                      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <h3 style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:28px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">💻 Jobs</h3>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                  <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0;text-align:left">
+                                      <h4 style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">
+                                        <a href="" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">Sub Section Title</a>
+                                      </h4>
+                                      <p style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eum eius numquam sint
+                                        dolore voluptatibus beatae ab ad, dignissimos fugiat? Nisi odio commodi debitis eveniet
+                                        tenetur provident aliquid tempora placeat.</p>
+                                    </th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                            <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <hr class="mb-md" style="margin:0 20px;margin-bottom:30px">
+                      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last colaboradores" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                  <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0;text-align:left">
+                                      <h4 style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">Colaboradores dessa Weekly</h4>
+                                      <p class="colaboradores-photos" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">A weekly dessa semana só foi possível graças a:
+                                        <br>
+                                        <a href="https://github.com/felipeblini" title="Felipe Blini" style="Margin:0;color:#2199e8;display:inline-block;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none;width:70px">
+                                          <img src="https://avatars3.githubusercontent.com/u/3482290?s=460&amp;amp;v=4" alt="" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:70px"> </a>
+                                        <a href="https://github.com/joaocunha" title="João Cunha" style="Margin:0;color:#2199e8;display:inline-block;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none;width:70px">
+                                          <img src="https://avatars2.githubusercontent.com/u/766837?s=460&amp;amp;v=4" alt="" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:70px"> </a>
+                                        <a href="https://github.com/felipealbuquerq" title="Felipe Almeida" style="Margin:0;color:#2199e8;display:inline-block;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none;width:70px">
+                                          <img src="https://avatars0.githubusercontent.com/u/1964926?s=460&amp;amp;v=4" alt="" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:70px"> </a>
+                                        <a href="https://github.com/eduardolops" title="Eduardo Lopes" style="Margin:0;color:#2199e8;display:inline-block;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none;width:70px">
+                                          <img src="https://avatars1.githubusercontent.com/u/7109983?s=460&amp;amp;v=4" alt="" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:70px"> </a>
+                                        <a href="https://github.com/joaocunha" title="João Cunha" style="Margin:0;color:#2199e8;display:inline-block;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none;width:70px">
+                                          <img src="https://avatars2.githubusercontent.com/u/766837?s=460&amp;amp;v=4" alt="" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:70px"> </a>
+                                        <a href="https://github.com/felipealbuquerq" title="Felipe Almeida" style="Margin:0;color:#2199e8;display:inline-block;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none;width:70px">
+                                          <img src="https://avatars0.githubusercontent.com/u/1964926?s=460&amp;amp;v=4" alt="" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:70px"> </a>
+                                        <a href="https://github.com/eduardolops" title="Eduardo Lopes" style="Margin:0;color:#2199e8;display:inline-block;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none;width:70px">
+                                          <img src="https://avatars1.githubusercontent.com/u/7109983?s=460&amp;amp;v=4" alt="" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:70px">
+                                        </a>
+                                      </p>
+                                      <p style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">A comunidade agradece! 👏👏👏💪</p>
+                                      <p style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">Colabore você também! Sugira um conteúdo abrindo uma
+                                        <a href="https://github.com/dev-pp/weekly/issues" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">nova Issue no nosso repositório</a>
+                                      </p>
+                                    </th>
+                                    <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <hr class="mb-md" style="margin:0 20px;margin-bottom:30px">
+                      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last colaboradores" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                  <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0;text-align:left">
+                                      <h4 style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding:0;text-align:left;word-wrap:normal">Junte se a nós</h4>
+                                      <p class="canais" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">🌍 nosso site:
+                                        <a href="http://devpp.tech/" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">http://devpp.tech/</a>
+                                      </p>
+                                      <p class="canais" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">
+                                        <img src="http://res.cloudinary.com/dwtuxv53y/image/upload/v1522369783/if_square-facebook_317727_hnpmk7.png" alt="" style="-ms-interpolation-mode:bicubic;clear:both;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:auto"> nossa página no facebook:
+                                        <a href="http://bit.ly/2GlLUTr" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">/devppoficial</a>
+                                      </p>
+                                      <p class="canais" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">
+                                        <img src="http://res.cloudinary.com/dwtuxv53y/image/upload/v1522369783/if_square-facebook_317727_hnpmk7.png" alt="" style="-ms-interpolation-mode:bicubic;clear:both;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:auto"> comunidade no facebook:
+                                        <a href="https://www.facebook.com/groups/770159453169235/" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">Dev PP</a>
+                                      </p>
+                                      <p class="canais" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">
+                                        <img src="http://res.cloudinary.com/dwtuxv53y/image/upload/v1522369783/if_slack_alt_1419122_rps3ud.png" alt="" style="-ms-interpolation-mode:bicubic;clear:both;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:auto"> nosso slack:
+                                        <a href="https://goo.gl/zSKwJm" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">devpp.slack.com</a>
+                                      </p>
+                                      <p class="canais" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">
+                                        <img src="http://res.cloudinary.com/dwtuxv53y/image/upload/v1522369783/if_youtube_317714_cjzwfo.png" alt="" style="-ms-interpolation-mode:bicubic;clear:both;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:auto"> nosso canal no youtube:
+                                        <a href="https://goo.gl/RnxwoP" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">DEV-PP</a>
+                                      </p>
+                                      <p class="canais" style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">
+                                        <img src="http://res.cloudinary.com/dwtuxv53y/image/upload/v1522369783/if_social_media_network-24_1851682_yrcgnc.png" alt=""
+                                          style="-ms-interpolation-mode:bicubic;clear:both;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:auto"> nossa comunidade no meetup:
+                                        <a href="https://www.meetup.com/dev-pp/" style="Margin:0;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">meetup.com/dev-pp/</a>
+                                      </p>
+                                    </th>
+                                    <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <hr class="mb-md" style="margin:0 20px;margin-bottom:30px">
+                      <table class="row apoio" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                        <tbody>
+                          <tr style="padding:0;text-align:left;vertical-align:top">
+                            <th class="small-12 large-12 columns first last colaboradores" style="Margin:0 auto;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0 auto;padding:0;padding-bottom:16px;padding-left:16px;padding-right:16px;text-align:left;width:564px">
+                              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                                <tbody>
+                                  <tr style="padding:0;text-align:left;vertical-align:top">
+                                    <th style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0;text-align:left">
+                                      <h2 class="mb-md" style="Margin:0;Margin-bottom:10px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:30px;font-weight:400;line-height:1.3;margin:0;margin-bottom:30px;padding:0;text-align:center;word-wrap:normal">Apoio</h2>
+                                      <p style="Margin:0;Margin-bottom:10px;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;margin-bottom:10px;padding:0;text-align:left">
+                                        <img src="http://res.cloudinary.com/dwtuxv53y/image/upload/v1516231279/forspace_rl951w.png" alt="" style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:0 auto;max-width:100%;outline:0;text-decoration:none;width:auto">
+                                      </p>
+                                    </th>
+                                    <th class="expander" style="Margin:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:400;line-height:1.5;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0"></th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </center>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+
+</html>
