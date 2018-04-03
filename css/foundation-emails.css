@@ -1701,7 +1701,7 @@ p,
 table.body,
 td,
 th {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -1721,6 +1721,14 @@ hr {
   margin: 0 20px;
 }
 
+.mb-xs {
+  margin-bottom: 10px;
+}
+
+.mb-sm {
+  margin-bottom: 18px;
+}
+
 .mb-md {
   margin-bottom: 30px;
 }
@@ -1732,6 +1740,7 @@ hr {
 
 .colaboradores .colaboradores-photos img {
   width: 70px;
+  border: solid 6px #fefefe;
 }
 
 .patrocinado small {
@@ -1739,7 +1748,7 @@ hr {
   border: solid .5px;
   border-radius: 3px;
   padding: 3px;
-  font-size: 12px;
+  font-size: 11px;
   font-style: italic;
   margin-bottom: 10px;
 }
@@ -1757,5 +1766,46 @@ p.canais img {
 }
 
 .apoio img {
+  margin: 0 auto;
+}
+
+.row-title {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+.row-event-month-group {
+  margin: 20px;
+  background-color: #f8f8f8;
+}
+
+.row-event-month-group .month-name {
+  padding: 10px;
+}
+
+.row-event-month-group .month-events {
+  width: 100%;
+}
+
+.event-row {
+  text-align: left;
+  width: 100%;
+}
+
+.event-row span.event-day {
+  display: inline-block;
+  float: left;
+  color: #fff;
+  font-size: 19px;
+  border: solid #ccc;
+  font-weight: 800;
+  background: #999;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.btn-center {
+  width: 260px;
   margin: 0 auto;
 }
