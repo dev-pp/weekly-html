@@ -1757,6 +1757,10 @@ hr {
   margin-bottom: 0;
 }
 
+p.canais {
+  display: inline-block;
+}
+
 p.canais img {
   display: inline-block;
 }
@@ -1808,4 +1812,8 @@ p.canais img {
 .btn-center {
   width: 260px;
   margin: 0 auto;
+}
+
+.img-full {
+  width: 600px;
 }
