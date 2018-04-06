@@ -1778,9 +1778,24 @@ p.canais img {
   margin-bottom: 2px;
 }
 
-.row-event-month-group {
-  margin: 20px;
+.row-event-month-group th.event-group {
+  padding: 20px;
+}
+
+.row-event-month-group tr th.event-group .list-content {
   background-color: #f8f8f8;
+  padding: 10px;
+}
+
+.row-event-month-group tr th.event-group .list-content .event-row .row-title,
+.row-event-month-group tr th.event-group .list-content .event-row b {
+  font-size: 16px;
+  margin-bottom: -2px;
+}
+@media(min-width: 600px) {
+  .row-event-month-group tr th.event-group .list-content .event-row .row-title {
+    font-size: 20px;
+  }
 }
 
 .row-event-month-group .month-name {
@@ -1814,6 +1829,7 @@ p.canais img {
   margin: 0 auto;
 }
 
-.img-full {
-  width: 600px;
+.apoio h2 {
+  color: #999;
+  font-size: 16px;
 }
